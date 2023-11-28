@@ -18,6 +18,12 @@ body {
     
 }
 
+.main-title {
+    font-weight: 500;
+    padding: 10px 0 ;
+    
+}
+
 .main {
     max-width: 800px;
     height: 100%;
@@ -43,11 +49,7 @@ fieldset {
 }
 
 
-.main-title {
-    font-weight: 500;
-    padding: 10px 0 ;
-    
-}
+
 
 
 
