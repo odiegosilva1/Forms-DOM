@@ -12,28 +12,28 @@
 <body>
     <div class="header">
         <h1 class="main-title">Cadastro de DEVs</h1>
-        <p class="txt">Olá, complete suas informações.</p>
+        <p class="txt-p">Olá, complete suas informações.</p>
     </div>
     <div class="main">
         <form action="" class="main-form">
-            <fieldset class="group">
+            <fieldset>
                 <div class="section">
                     <label for="name"></label>
-                    <input class="txt-input" type="text" name="nome" id="nome" value="Nome">
+                    <input class="input" type="text" name="nome" id="nome" value="Nome" required>
                 </div>
                 <div class="section">
                     <label for="sobrenome"></label>
-                    <input class="txt-input" type="text" name="sobrenome" id="sobrenome" value="Sobrenome">
+                    <input class="input" type="text" name="sobrenome" id="sobrenome" value="Sobrenome" required>
                 </div>
-            </fieldset>
+            </fieldset class="group">
             <div class="section">
                 <label for="email"></label>
-                <input class="txt-input" type="email" name="email" id="email" value="E-mail">
+                <input class="input" type="email" name="email" id="email" value="E-mail" required>
             </div>
             <div>
                 <p class="txt">Qual é a sua experiêcia como desenvolvedor?</p>
                 <label>
-                    <input type="radio" name="webdev" value="frontend" checked> Front-End
+                    <input class="r-button" type="radio" name="webdev" value="frontend" checked> Front-End
                 </label>
                 <label>
                     <input type="radio" name="webdev" value="backend"> Back-End
@@ -42,7 +42,7 @@
                     <input type="radio" name="webdev" value="fullstack"> Full-Stack
                 </label>
                 <div>
-                    <label>Qual é a sua senioridade?</label>
+                    <p class="txt-op">Qual é a sua senioridade?</p>
                     <select class="txt-input" id="senioridade">
                         <option selected disabled value="">Selecione</option>
                         <option>Junior</option>
@@ -54,19 +54,19 @@
             <fieldset class="group">
                 <div>
                     <p class="txt">Selecione as tecnologias que conhece.</p><br>
-                    <input type="checkbox" id="tec1" nome="tec1" value="html">
+                    <input class="select-b" type="checkbox" id="tec1" nome="tec1" value="html">
                     <label for="tec1">HTML</label>
-                    <input type="checkbox" id="tec2" nome="tec2" value="CSS">
+                    <input class="select-b" type="checkbox" id="tec2" nome="tec2" value="CSS">
                     <label for="tec2">CSS</label>
-                    <input type="checkbox" id="tec3" nome="tec3" value="javascript">
+                    <input class="select-b" type="checkbox" id="tec3" nome="tec3" value="javascript">
                     <label for="tec3">JavaScript</label>
-                    <input type="checkbox" id="tec4" nome="tec4" value="php">
+                    <input class="select-b" type="checkbox" id="tec4" nome="tec4" value="php">
                     <label for="tec4">PHP</label>
-                    <input type="checkbox" id="tec5" nome="tec5" value="c#">
+                    <input class="select-b" type="checkbox" id="tec5" nome="tec5" value="c#">
                     <label for="tec5">C#</label>
-                    <input type="checkbox" id="tec6" nome="tec6" value="python">
+                    <input class="select-b" type="checkbox" id="tec6" nome="tec6" value="python">
                     <label for="tec6">Python</label>
-                    <input type="checkbox" id="tec7" nome="tec7" value="react">
+                    <input class="select-b" type="checkbox" id="tec7" nome="tec7" value="react">
                     <label for="tec7">React</label><br>
                 </div>
             </fieldset class="group">
